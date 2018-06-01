@@ -7,35 +7,40 @@
     <meta charset="utf-8">
     
     <title>Cifrado Cesar</title>
-  <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
   </head>
 
+ <body>
 
+  <h1> Cifrado Cesar <h1/>
 
-  <body>
+<div id=indicaciones> <p> INSTRUCCIONES <BR> 1. apreta el boton CIFRAR o DESCIFRAR <br> 2.escribe la frace o el texto sin espacios <br> 3. veras el resultado en la casilla "texto cifrado" o "texto descifrado"</p></div>
 
-<h1> Cifrado Cesar <h1/>
-
-
-
-<h2>
+   <h2>
     
     <script type="text/javascript" src="cifrado.js"> </script>
-    
-
-    <button  onclick=cipher()>cifrar</button>
-    <button  onclick=decipher()>Descifrar</button>
-    
-
+ 
     <h2/>
 
-<h3>
-    <div id="caja-cipher" ></div>
-    <div id="caja-decipher"></div>
- </h3>
+ <h3>
+    
+    <div class="centrado">
+      <input type="submit" onclick="cipher()" value="cifrar">
+      <input type="submit" onclick="decipher()" value="Descifrar">
+      <br>
+      <br>
+      <textarea id="caja-cipher"  placeholder="texto cifrado"></textarea><br>
+      <textarea id="caja-decipher" placeholder="texto descifrado"></textarea>
+    </div>
+
+  </h3>
 
    
 
   </body>
 </html>
+
+
+
+
