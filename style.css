@@ -1,29 +1,39 @@
- h1 {
-     font-family:Tahoma;
-     font-size:50px;
-     color: #FFF;
-     text-align:center;
-  
-	    
-}
-
-
-
 body {
     font: 100% sans-serif;
     background-size: 100%;
-    background-image:url("https://i.blogs.es/9cfaf6/encriptacion/450_1000.jpg");
+    background-color: #880e4f;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+}
+
+
+h1 {
     
+    font-size:30px;
+    color: #FFF;
+    text-align:center;
+    background-color:#560027;
+
 }
 
 
 
 
-button{
-    padding-right: 20em;
-    padding-bottom: 3em;
-    margin:7em;
 
+textarea {
+    width: 400px;
+    height: 100px;
+    margin: 10px 0 10px 0;
+
+}
+
+#indicaciones {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+}
+
+.centrado {
+    float: center;
 }
 
 
