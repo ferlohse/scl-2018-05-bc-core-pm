@@ -17,15 +17,16 @@
 
 <div id=indicaciones> <p> INSTRUCCIONES <BR> 1. apreta el boton CIFRAR o DESCIFRAR <br> 2.escribe la frace o el texto sin espacios <br> 3. veras el resultado en la casilla "texto cifrado" o "texto descifrado"</p></div>
 
-   <h2>
-    
-    <script type="text/javascript" src="cifrado.js"> </script>
- 
-    <h2/>
+     <div>
+        <input id="caja" type="text" name="valorx" placeholder="Elige un número" data-toggle="tooltip" title="Número de veces que se correrá cada letra de tu mensaje">
+    </div>  
 
- <h3>
-    
-    <div class="centrado">
+    <div>
+      <p id="message">Escribe tu texto aquí</p>
+      <textarea id="cajatexto" name="mensaje" placeholder="Escribe tu texto"></textarea>
+    </div>
+
+    <div>
       <input type="submit" onclick="cipher()" value="cifrar">
       <input type="submit" onclick="decipher()" value="Descifrar">
       <br>
@@ -33,9 +34,12 @@
       <textarea id="caja-cipher"  placeholder="texto cifrado"></textarea><br>
       <textarea id="caja-decipher" placeholder="texto descifrado"></textarea>
     </div>
+  
 
-  </h3>
 
+  
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
    
 
   </body>
